@@ -127,4 +127,41 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
+
+/* Media Query Desktop First : Caso Base Desktop */
  
+
+/* Media Query Tablet */
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;  
+    }
+} 
+
+/* Media Query Mobile */
+@media screen and (max-width: 480px){
+     .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lessons .col img{
+        height: 100%;
+    }
+
+    .lessons .col , 
+    .steps .col , 
+    .why-us .col{
+        width: 95%;
+    }
+
+    div.card , div.col{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* Media Query Mobile Piccolo */
